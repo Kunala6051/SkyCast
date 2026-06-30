@@ -90,7 +90,11 @@ git clone https://github.com/Kunala6051/SkyCast.git
 
 ## 📸 Screenshots
 
-> Add screenshots of the Login Page and Dashboard here.
+<img width="1903" height="915" alt="image" src="https://github.com/user-attachments/assets/392153b7-5f19-408d-aa42-a292c4f87e62" />
+
+
+<img width="1884" height="908" alt="image" src="https://github.com/user-attachments/assets/797edc57-e51b-4fa0-b470-0b7dc7bd4844" />
+
 
 ---
 
