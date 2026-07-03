@@ -1,75 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyCast | Smart Weather Dashboard</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="dashboard sunny">
 
     <div class="header">
-
         <div>
             <h1 id="greeting">Good Morning ☀️</h1>
             <p id="today"></p>
         </div>
 
-        <button class="logout-btn" id="logoutBtn">
-            Logout
-        </button>
-
+        <button class="logout-btn" id="logoutBtn">Logout</button>
     </div>
 
     <!-- Search -->
-
     <div class="search-box">
-
-        <input
-            type="text"
-            id="cityInput"
-            placeholder="Search any city..."
-        >
-
-        <button id="searchBtn">
-            Search
-        </button>
-
+        <input type="text" id="cityInput" placeholder="Search any city...">
+        <button id="searchBtn">Search</button>
     </div>
 
     <!-- Loader -->
-
     <div class="loader" id="loader"></div>
 
     <!-- Current Weather -->
-
     <div class="weather-card">
-
         <div class="weather-main">
-
             <div>
-
                 <h2 id="cityName">Search a city</h2>
-
-                <h1 class="temp" id="temperature">
-                    --
-                </h1>
-
+                <h1 class="temp" id="temperature">--</h1>
                 <h3 id="description"></h3>
-
             </div>
 
-            <div class="emoji" id="emoji">
-                🌍
-            </div>
-
+            <div class="emoji" id="emoji">🌍</div>
         </div>
 
         <div class="info-grid">
-
             <div class="info-box">
                 <h4>Humidity</h4>
                 <p id="humidity">--</p>
@@ -89,33 +58,19 @@
                 <h4>Local Time</h4>
                 <p id="time">--</p>
             </div>
-
         </div>
-
     </div>
 
     <!-- Forecast -->
-
     <h2>3-Day Forecast</h2>
-
-    <div class="forecast" id="forecast">
-
-    </div>
+    <div class="forecast" id="forecast"></div>
 
     <!-- Recent Searches -->
-
     <div class="recent">
-
         <h2>Recent Searches</h2>
-
-        <div id="recentCities">
-
-        </div>
-
+        <div id="recentCities"></div>
     </div>
 
-<script src="dashboard.js"></script>
-
+    <script src="dashboard.js"></script>
 </body>
-
 </html>
